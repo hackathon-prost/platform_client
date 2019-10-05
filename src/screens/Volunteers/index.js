@@ -34,7 +34,7 @@ const VolunteersPage = () => {
                                 <div className="title">
                                     <h4>Próximos eventos</h4> 
                                 </div>
-                                <div class="search">
+                                <div className="search">
                                     <SearchComponent placeholder='Buscar Eventos'/>
                                 </div>
                             </div>

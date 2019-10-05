@@ -10,6 +10,9 @@ const ApplicationItem = () => {
                     </div>
                     <div className="application-text">
                         Marcha por el cambio climatico
+                        <span class="application-text-ong">
+                            ONU Foundation
+                        </span>
                     </div>
                     <div className="application-button">
                         <img width="25" src="https://www.iconsdb.com/icons/preview/green/ok-xxl.png" />

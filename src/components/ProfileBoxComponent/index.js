@@ -9,7 +9,7 @@ const ProfileBoxComponent = () =>{
         <div className='profile-data'>
           <p>John Doe</p>
           <p> 32 Años (01/01/1992) </p>
-          <p nameClass='bio'>
+          <p className='bio'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
