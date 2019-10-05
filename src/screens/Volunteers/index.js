@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import PublicationItem  from '../../components/PublicationItem'
-import ProfileComponent from '../../components/ProfileComponent'
+import ProfileBoxComponent from '../../components/ProfileComponent'
 import ApplicationItem from '../../components/ApplicationItem'
 
 const VolunteersPage = () => {
