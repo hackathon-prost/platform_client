@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+import ButtonDashboard from '../../components/ButtonDashboard'
 import './style.css'
 const EventComponent = () =>{
     return(
@@ -20,6 +22,9 @@ const EventComponent = () =>{
                   volutpat, fringilla mi vitae, ultrices 
                   felis. 
                </p>
+           </div>
+           <div className='buttonContain'>
+               <ButtonDashboard title='Editar'/>
            </div>
         </div>
     )
