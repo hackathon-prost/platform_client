@@ -1,0 +1,33 @@
+.RequestCardComponent{
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    align-content: center;
+    margin: 0.5em;
+    border-radius: 1vw;
+    -webkit-box-shadow: -1px 0px 52px -21px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 0px 52px -21px rgba(0,0,0,0.3);
+    box-shadow: -1px 0px 52px -21px rgba(0,0,0,0.3);
+    user-select: none;
+}
+.RequestCardComponent img{
+   width: 4em;
+   padding: 0.4em;
+}
+.RequestCardComponent h4{
+    font-weight: bold;
+    font-size: 0.8em;
+    align-self: center;
+    text-align: left;
+}
+.RequestCardComponent>button{
+    background: none;
+    border: none;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+.RequestCardComponent>button:hover{
+    transform: scale(1.1)
+}
+.RequestCardComponent>button>img{
+    width: 2.5em
+}

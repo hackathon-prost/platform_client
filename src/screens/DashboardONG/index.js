@@ -3,6 +3,7 @@ import React from 'react';
 //comps
 import EventComponent from '../../components/EventComponent'
 import SearchComponent from '../../components/SearchComponent'
+import EventRequestComponent from '../../components/EventRequestComponent'
 import './style.css'
 
 const DashboardONG = ()=>{
@@ -13,6 +14,7 @@ const DashboardONG = ()=>{
             </div>
             <div className='PostulacionesCard'>
                 <h2>Postulaciones</h2>
+                <EventRequestComponent/>
             </div>
             <div className='EventsCreatedCard'>
                 <div className='titleEventsCard'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import PublicationItem  from '../PublicationItem'
-
+import ProfileBoxComponent from '../../components/ProfileBoxComponent'
 const VolunteersPage = () => {
     return(
         <div className="volunteers-page">
