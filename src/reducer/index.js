@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
-import {handleUserChange} from './login'
+import {handleUsernameChange, handleUserPasswordChange} from './login'
 export default combineReducers({
-    handleUserChange
+    handleUsernameChange,
+    handleUserPasswordChange
 })

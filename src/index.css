@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.boxes {
+  width: 50%;
+  display: inline-block;
+  height: 700px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.boxes .btn {
+  margin-top: 200px;
+}
+
+.left {
+  background-color: orange;
+}
+
+.right {
+  background-color: #fff;
+} 
+
+.volunteers-page {
+  background-color: #ddd;
+  height: 1000px;
+}
+
+.container-fluid > .row {
+  padding-top: 40px;
+}
+
+.search {
+  width: 200px;
+  text-align: right;
+  float:right;
+}
+
+.title, .title > h4 {
+  display: inline;
+  text-align: left;
+}
+
+.profile-box {
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 50px;
+
 }
