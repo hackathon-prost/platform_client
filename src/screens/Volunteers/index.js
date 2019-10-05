@@ -17,21 +17,16 @@ const VolunteersPage = () => {
                     </div>
                     <div className="col-2">
                         <div className="profile-box">
-                            <h6>
+                            <h2>
                                 Tu perfil
-                            </h6>
-                            <img src="http://www.theedwardhotel.co.uk/wp-content/uploads/2017/05/image-lorem-ipsum.png" width="100" className="profile-picture" />
-                            <div class="profile-data">
-                                <label>Nombre</label>
-                                John Doe
-                                <label>
-                                    Edad
-                                </label>
-                                32
-                                <label>
-                                    Fecha Nacimiento
-                                </label>
-                                01/01/1001
+                            </h2>
+<div className="profile-picture"></div>
+                            <div className="profile-data">
+                                <p>John Doe</p>
+        <p>                        32 Años (01/01/1992)</p>
+<p nameClass="bio">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
                             </div>
                         </div>
                     </div>
