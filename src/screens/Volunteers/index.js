@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import PublicationItem  from '../../components/PublicationItem'
-import ProfileBoxComponent from '../../components/ProfileComponent'
+import ProfileBoxComponent from '../../components/ProfileBoxComponent'
 import ApplicationItem from '../../components/ApplicationItem'
+import SearchComponent from '../../components/SearchComponent'
 
+import './index.css';
+ 
 const VolunteersPage = () => {
     return(
         <div className="volunteers-page">
@@ -16,7 +19,8 @@ const VolunteersPage = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="applications" >          
-                                    <h6>Postulaciones</h6>
+                                    <div><h6>Postulaciones</h6>
+                                        </div>
                                     <ApplicationItem />
                                     <ApplicationItem />
                                     <ApplicationItem />
@@ -30,7 +34,9 @@ const VolunteersPage = () => {
                                 <div className="title">
                                     <h4>Próximos eventos</h4> 
                                 </div>
-                                <input type="text" className="form-control search" placeholder="Busqueda" />
+                                <div class="search">
+                                    <SearchComponent placeholder='Buscar Eventos'/>
+                                </div>
                             </div>
                         </div>
                         <div className="row">

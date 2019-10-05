@@ -49,13 +49,13 @@ code {
 }
 
 .search {
-  width: 200px;
+  width: 270px;
   text-align: right;
   float:right;
 }
 
 .title, .title > h4 {
-  display: inline;
+
   text-align: left;
 }
 

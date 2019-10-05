@@ -1,0 +1,57 @@
+
+.volunteers-page {
+    background-color: #ddd;
+    height: 1000px;
+  }
+  
+  .container-fluid > .row {
+    padding-top: 40px;
+  }
+  
+  .search {
+    width: 270px;
+    text-align: right;
+    float:right;
+  }
+  
+  .title, .title > h4 {
+  
+    text-align: left;
+  }
+  
+  .publication {
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 20px;
+  
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  
+  .card-date { 
+    grid-area: 1 / 3 / 2 / 4; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  .card-body { 
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+  .card-image { 
+    grid-area: 1 / 1 / 2 / 2; 
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .applications {
+    height: 500px;
+    text-align: left;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  
