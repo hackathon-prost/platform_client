@@ -41,9 +41,9 @@ const VolunteersPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-2">
-                        <ProfileComponent />
-                    </div>
+                     <div className="col-2">
+                        <ProfileBoxComponent />
+                    </div>             
                 </div>
             </div>
         </div>

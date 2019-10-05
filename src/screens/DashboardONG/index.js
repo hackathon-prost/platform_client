@@ -2,11 +2,15 @@ import React from 'react';
 
 //comps
 import EventComponent from '../../components/EventComponent'
-
+import SearchComponent from '../../components/SearchComponent'
 import './style.css'
+
 const DashboardONG = ()=>{
     return(
         <main className='DashboardONGView'>
+            <div className='SearchContain'>
+                <SearchComponent placeholder='Buscar voluntarios'/>
+            </div>
             <div className='PostulacionesCard'>
                 <h2>Postulaciones</h2>
             </div>

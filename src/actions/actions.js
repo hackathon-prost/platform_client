@@ -3,6 +3,7 @@ export const HANDLE_USERPASSWORD_CHANGE = 'HANDLE_USERPASSWORD_CHANGE';
 export const USER_LOGIN = "USER_LOGIN";
 export const USER_LOGIN_SUCCESS = "USER_LOGIN_SUCCESS";
 export const USER_LOGIN_ERROR = "USER_LOGIN_ERROR";
+export const HANDLE_SEARCH_INPUT = 'HANDLE_SEARCH_INPUT'
 
 export function handleUsernameChange(user){
     return{
@@ -38,5 +39,12 @@ export function userLoginError(error) {
         type: USER_LOGIN_ERROR,
         error: error,
         loading: false
+    }
+}
+
+export function handleSearchInput(search){
+    return{
+        type: HANDLE_SEARCH_INPUT,
+        search
     }
 }

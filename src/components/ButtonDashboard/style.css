@@ -1,0 +1,13 @@
+.ButtonDashboard{
+    color: #E29D28;
+    border: 1px solid #E29D28 ;
+    padding: 0.8em 3em;
+    border-radius: 3em;
+    font-size: 0.8em;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ButtonDashboard:hover{
+    color: #E29D28;
+    text-decoration: none;
+    transform: scale(1.02)
+}

@@ -7,12 +7,20 @@
     grid-template-rows: 2fr 6fr;  
     overflow: none;  
 }
+.SearchContain{
+    grid-column: 2/3;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: center;
+    padding-right: 4em;
+}
 .PostulacionesCard{
     background: #fff;
     border-radius:1vw;
     grid-column: 1;
     grid-row: 2 / 8;
     margin: 1vw;
+    border-radius: 1vw;
 }
 .titleEventsCard{
     background: #fff;
@@ -27,7 +35,6 @@
     padding-bottom: 0em;
     font-size: 1.4em;
     color: #333;
-    background: #fff;  
 }
 
 .EventsCreatedCard{
