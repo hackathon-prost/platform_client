@@ -14,7 +14,7 @@ const VolunteersPage = () => {
                 <div className="row">
                     <div className="col-3">
                         <div className="row">
-                            <div className="col-12">Titulo Lorem Ipsum</div>
+                            <div className="col-12">VAO</div>
                         </div>
                         <div className="row">
                             <div className="col-12">
