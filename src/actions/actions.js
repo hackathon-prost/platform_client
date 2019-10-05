@@ -1,8 +1,16 @@
-export const HANDLE_USER_CHANGE = 'HANDLE_USER_CHANGE';
+export const HANDLE_USERNAME_CHANGE = 'HANDLE_USERNAME_CHANGE';
+export const HANDLE_USERPASSWORD_CHANGE = 'HANDLE_USERPASSWORD_CHANGE';
 
-export function handleUserChange(user){
+export function handleUsernameChange(user){
     return{
-        type: HANDLE_USER_CHANGE,
+        type: HANDLE_USERNAME_CHANGE,
         user
+    }
+}
+
+export function handleUserPasswordChange(password) {
+    return {
+        type: HANDLE_USERPASSWORD_CHANGE,
+        password
     }
 }
