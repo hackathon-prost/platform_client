@@ -1,6 +1,7 @@
 import React from 'react';
 import plus from '../../assets/plus.png'
 
+
 import './style.css'
 
 const AddEventButton = () =>{

@@ -26,6 +26,8 @@
     background: #fff;
     justify-self: stretch;
     grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 .PostulacionesCard h2, .EventsCreatedCard h2{
     font-family: 'Poppins';

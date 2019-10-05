@@ -2,6 +2,15 @@
     border: 1px solid #E29D28;
     color: #E29D28;
     background: #fff;
-    padding: 0.3em;
+    padding: 0.5em;
     border-radius: 2em;
+    margin: 0.5em;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+.AddEventButtonComp:hover{
+    padding: 0.6em;
+}
+
+.AddEventButtonComp img{
+    width: 1.5em;
 }

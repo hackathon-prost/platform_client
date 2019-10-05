@@ -1,0 +1,14 @@
+.AddEventModal{
+    width: 60vw;
+    height: 50vh;
+    background: #fff;
+    border-radius: 1vw;
+    position: absolute;
+    z-index: 1000;
+    left: 20vw;
+    top: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+}

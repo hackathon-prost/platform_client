@@ -4,6 +4,8 @@ import {uri} from '../../constants/uri'
 import EventComponent from '../../components/EventComponent'
 import SearchComponent from '../../components/SearchComponent'
 import EventRequestComponent from '../../components/EventRequestComponent'
+import AddEventButton from '../../components/AddEventButton'
+import AddEventModal from '../../components/AddEventModal'
 import './style.css'
 
 class DashboardONG extends React.Component{
@@ -11,7 +13,8 @@ class DashboardONG extends React.Component{
     constructor(){
         super();
         this.state = {
-            ONGData: {}
+            ONGData: {},
+            showModal: false
         }
     }
     componentDidMount(){
@@ -29,6 +32,7 @@ class DashboardONG extends React.Component{
         const {ONGData} = this.state;
     return(
         <main className='DashboardONGView'>
+            {this.state.showModal ? <AddEventModal/> : null}
             <div className='SearchContain'>
                 <SearchComponent placeholder='Buscar voluntarios'/>
             </div>
@@ -39,6 +43,7 @@ class DashboardONG extends React.Component{
             <div className='EventsCreatedCard'>
                 <div className='titleEventsCard'>
                     <h2>Eventos creados</h2>
+                    <AddEventButton/>
                 </div>
                 <div>
                     <EventComponent/>
