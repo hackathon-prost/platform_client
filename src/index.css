@@ -11,9 +11,6 @@ code {
 }
 
 
-
-
-
 .boxes {
   width: 50%;
   display: inline-block;
@@ -34,3 +31,33 @@ code {
   background-color: #fff;
 } 
 
+.volunteers-page {
+  background-color: #ddd;
+  height: 1000px;
+}
+
+.container-fluid > .row {
+  padding-top: 40px;
+}
+
+.search {
+  width: 200px;
+  text-align: right;
+  float:right;
+}
+
+.title, .title > h4 {
+  display: inline;
+  text-align: left;
+}
+
+.profile-box {
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 50px;
+
+}

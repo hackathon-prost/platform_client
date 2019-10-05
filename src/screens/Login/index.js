@@ -1,18 +1,18 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import { handleUsernameChange, handleUserPasswordChange } from '../../actions/actions';
+import { handleUsernameChange, handleUserPasswordChange, loginSubmitted } from '../../actions/actions';
 
 const LoginPage = ({userName, password}) => {
     return(
         <div className="form-horizontal">
-        <form >
+        <form>
           <div className="form-group">
             <label>Usuario</label>
-            <input type="text" value={userName} className="form-group" />
+            <input type="text" value={userName} onChange={handleUsernameChange} className="form-group" />
           </div>
           <div className="form-group">
             <label>Contraseña</label>
-            <input  type="password" value={password} className="form-group" />
+            <input type="password" value={password} onChange={handleUserPasswordChange} className="form-group" />
           </div>
           <div className="form-group">
             <input type="submit" className="btn btn-warning" value="Iniciar sesión" />
@@ -26,8 +26,8 @@ const mapStateToProps = state => ({
     password: state.password
 })
 const mapDispatchToProps = dispatch => ({
-    handleUser : handleUsernameChange,
-    handlePassword: handleUserPasswordChange
+    handleUsernameChange,
+    handleUserPasswordChange
 })
 
 export default connect(mapStateToProps,mapDispatchToProps)(LoginPage);
