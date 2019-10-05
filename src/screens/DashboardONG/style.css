@@ -7,6 +7,13 @@
     grid-template-rows: 2fr 6fr;  
     overflow: none;  
 }
+.SearchContain{
+    grid-column: 2/3;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: center;
+    padding-right: 4em;
+}
 .PostulacionesCard{
     background: #fff;
     border-radius:1vw;
