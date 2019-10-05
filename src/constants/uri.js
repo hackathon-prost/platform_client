@@ -1,0 +1,1 @@
+export const uri = 'http://10.5.2.241:9090/'

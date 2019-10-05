@@ -1,12 +1,32 @@
 import React from 'react';
-
+import {uri} from '../../constants/uri'
 //comps
 import EventComponent from '../../components/EventComponent'
 import SearchComponent from '../../components/SearchComponent'
 import EventRequestComponent from '../../components/EventRequestComponent'
 import './style.css'
 
-const DashboardONG = ()=>{
+class DashboardONG extends React.Component{
+
+    constructor(){
+        super();
+        this.state = {
+            ONGData: {}
+        }
+    }
+    componentDidMount(){
+        const ONGDataUri = `${uri}prost/api/organizations` 
+        fetch(ONGDataUri)
+            .then(res => res.json())
+            .then(res => this.setState({
+                ONGData: res[0]
+            }))
+        
+
+    }
+
+    render(){
+        const {ONGData} = this.state;
     return(
         <main className='DashboardONGView'>
             <div className='SearchContain'>
@@ -31,9 +51,12 @@ const DashboardONG = ()=>{
                 </div>
             </div>
             <div className='UserCard'>
-                
+                <div style={{backgroundImage:`url(${ONGData.profileImage})`}}></div>
+                <h2>{ONGData.name}</h2>
+                <p>{ONGData.description}</p>
             </div>
         </main>
-    )    
+    ) 
+    }
 }
 export default DashboardONG

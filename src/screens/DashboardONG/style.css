@@ -55,3 +55,19 @@
     grid-row: 1 / 8;
     margin: 1vw;
 }
+
+.UserCard div{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    margin: 2em;
+}
+.UserCard h2{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.UserCard p{
+    padding: 1em;
+}

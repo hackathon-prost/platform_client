@@ -1,9 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
-import PublicationItem  from '../PublicationItem'
-import ProfileBoxComponent from '../../components/ProfileBoxComponent'
-=======
 import PublicationItem  from '../../components/PublicationItem'
 import ProfileBoxComponent from '../../components/ProfileBoxComponent'
 import ApplicationItem from '../../components/ApplicationItem'
@@ -11,7 +7,6 @@ import SearchComponent from '../../components/SearchComponent'
 
 import './index.css';
  
->>>>>>> 129660df2cc746609bbece40d2cf412d8287daef
 const VolunteersPage = () => {
     return(
         <div className="volunteers-page">
