@@ -1,50 +1,53 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import PublicationItem  from '../PublicationItem'
 import ProfileBoxComponent from '../../components/ProfileBoxComponent'
+=======
+import PublicationItem  from '../../components/PublicationItem'
+import ProfileBoxComponent from '../../components/ProfileBoxComponent'
+import ApplicationItem from '../../components/ApplicationItem'
+import SearchComponent from '../../components/SearchComponent'
+
+import './index.css';
+ 
+>>>>>>> 129660df2cc746609bbece40d2cf412d8287daef
 const VolunteersPage = () => {
     return(
         <div className="volunteers-page">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-3">
                         <div className="row">
-                            <div className="col-12">Titulo Lorem Ipsum</div>
+                            <div className="col-12">VAO</div>
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <div className="card applications" >
-                                    <div className="card-body">
-                                        <div className="card-title">
-                                            <h6>Mis Postulaciones</h6>
+                                <div className="applications" >          
+                                    <div><h6>Postulaciones</h6>
                                         </div>
-                                        <div className="card application">
-                                            <div className="application-image">
-                                                <img src="https://d29fhpw069ctt2.cloudfront.net/icon/image/83126/preview.svg" className="publication-image-logo" width="25" />
-                                            </div>
-                                            <div className="application-text">
-                                                Marcha por el cambio climatico
-                                            </div>
-                                            <div className="application-button">
-                                                <button className="btn btn-sm btn-warning">X</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <ApplicationItem />
+                                    <ApplicationItem />
+                                    <ApplicationItem />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-8">
+                    <div className="col-7">
                         <div className="row">
                             <div className="col-12">
                                 <div className="title">
                                     <h4>Próximos eventos</h4> 
                                 </div>
-                                <input type="text" className="form-control search" placeholder="Busqueda" />
+                                <div className="search">
+                                    <SearchComponent placeholder='Buscar Eventos'/>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
+                                <PublicationItem />
+                                <PublicationItem />
                                 <PublicationItem />
                             </div>
                         </div>

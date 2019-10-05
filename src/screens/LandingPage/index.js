@@ -10,7 +10,7 @@ const LandingPage = () => {
             </Link>
             </div>
             <div className="boxes right">
-            <Link className="btn btn-primary btn-orange btn-lg" to="/ongs">
+            <Link className="btn btn-primary btn-orange btn-lg" to="/ong">
                 Soy una ONG
             </Link>
             </div>
