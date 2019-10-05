@@ -1,0 +1,50 @@
+.DashboardONGView{
+    background-color: rgb(238, 236, 236);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 6fr;  
+    overflow: none;  
+}
+.PostulacionesCard{
+    background: #fff;
+    border-radius:1vw;
+    grid-column: 1;
+    grid-row: 2 / 8;
+    margin: 1vw;
+}
+.titleEventsCard{
+    background: #fff;
+    justify-self: stretch;
+    grid-row: 1/2;
+}
+.PostulacionesCard h2, .EventsCreatedCard h2{
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: left;
+    padding: 1em;
+    padding-bottom: 0em;
+    font-size: 1.4em;
+    color: #333;
+    background: #fff;  
+}
+
+.EventsCreatedCard{
+    background-color: #fff;
+    border-radius: 1vw;
+    grid-column: 2 / 3;
+    grid-row: 2/8;
+    margin: 1vw;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    overflow: auto;
+}
+
+.UserCard{
+    background-color: #fff;
+    border-radius: 1vw;
+    grid-column: 3 / 4;
+    grid-row: 1 / 8;
+    margin: 1vw;
+}
