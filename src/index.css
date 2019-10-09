@@ -22,13 +22,13 @@ code {
 .boxes {
   width: 50%;
   display: inline-block;
-  height: 700px;
+  height: 100vh;
   vertical-align: middle;
   text-align: center;
 }
 
 .boxes .btn {
-  margin-top: 200px;
+  margin-top: 40%;
 }
 
 .left {
@@ -38,3 +38,5 @@ code {
 .right {
   background-color: #fff;
 } 
+
+
