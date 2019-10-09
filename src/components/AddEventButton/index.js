@@ -7,7 +7,7 @@ import './style.css'
 const AddEventButton = () =>{
     return(
         <button className='AddEventButtonComp'>
-            <img src={plus}/> Crear Evento
+            <img src={plus} alt="#"/> Crear Evento
         </button>
     )
 }

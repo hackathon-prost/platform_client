@@ -14,7 +14,7 @@ const SearchComponent = ({placeholder}) => {
             onChange={handleChangeSearch}
             />
            <button type='submit'>
-               <img style={{width: '1.4em'}} src={search}/>
+               <img style={{width: '1.4em'}} src={search} alt="Searc Icon"/>
            </button>
        </form>
     )

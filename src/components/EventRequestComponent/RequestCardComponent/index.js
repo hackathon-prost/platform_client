@@ -8,13 +8,13 @@ import './style.css'
 const RequestCardComponent = ({thumb, name}) =>{
     return(
         <div className='RequestCardComponent'>
-            <img src={thumb}/>
+            <img src={thumb} alt="#"/>
             <h4>{name}</h4>
             <button>
-                <img src={success}/>
+                <img src={success} alt="Succeeded"/>
             </button>
             <button>
-                <img src={wrong}/>
+                <img src={wrong} alt="Failed"/>
             </button>
         </div>
     )
