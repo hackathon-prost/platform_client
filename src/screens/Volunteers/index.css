@@ -1,7 +1,8 @@
 
 .volunteers-page {
     background-color: #ddd;
-    height: 1000px;
+    height: 100%;
+    padding-bottom: 40px;
   }
   
   .container-fluid > .row {
@@ -15,7 +16,6 @@
   }
   
   .title, .title > h4 {
-  
     text-align: left;
   }
   
@@ -23,7 +23,6 @@
     text-align: left;
     margin-top: 15px;
     border-radius: 20px;
-  
     display: grid;
     grid-template-columns: 0.3fr 1fr 0.3fr;
     grid-template-rows: repeat(1, 1fr);
